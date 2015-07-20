@@ -10,10 +10,10 @@ Vengono installati tutti i moduli Grunt presenti in `package.json`.
 
 ##Workflow
 La directory di lavoro è `src`
-*javascript:
+* javascript:
 	* `plugin.js`: jquery plugin
 	* `main.js`: script principale
-*css:
+* css:
 	* `_base.scss`: definizione variabili e mixin
 	* `_application.scss`: regole css principali, saranno poi inserite nel contesto dello stylesheet di html5 Boilerplate
 
