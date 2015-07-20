@@ -1,2 +1,15 @@
 /* Main stylesheet rules*/
 
+#container{
+	overflow: hidden;
+}
+
+#test {
+	text-align: center;
+	color: $lightblue;
+	transition: transform 1s;
+}
+
+.click{
+	transform: scale(1.5, 2);
+}
