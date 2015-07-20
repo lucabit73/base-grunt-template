@@ -27,7 +27,7 @@ module.exports = function(grunt) {
 			},
 			target: {
 				files: {
-					'dist/js/built.min.js': ['src/js/built_noConsole.js']
+					'dist/js/built.min.js': 'src/js/built_noConsole.js'
 				}
 			}
 		},
@@ -55,17 +55,17 @@ module.exports = function(grunt) {
 		watch: {
 			css: {
 				files: 'src/css/*.scss',
-				tasks: ['sass']
+				tasks: 'sass'
 			},
 			script: {
 				files: ['src/js/main.js', 'src/js/plugin.js'],
-				tasks: ['concat']
+				tasks: 'concat'
 			}
 		},
 		copy: {
 			main: {
-				files: [
-					{expand: true, flatten: true, src: ['src/js/vendor/modernizr-2.8.3.min.js'], dest: 'dist/js/vendor/'},
+				files:[ 
+					{expand: true, flatten: true, src: 'src/js/vendor/modernizr-2.8.3.min.js', dest: 'dist/js/vendor/'}
 				]
 			}
 		},
